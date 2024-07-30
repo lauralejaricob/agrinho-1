@@ -1,0 +1,16 @@
+@media screen and (min-width: 1440px) {
+    .cabecalho__imagem {
+        position: relative;
+    }
+    
+    
+    .cabecalho__titulo{
+        position: absolute;
+        top:500px;
+        right: 400px;
+        background: var(--verde-dregade);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}

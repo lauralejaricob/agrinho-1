@@ -1,0 +1,76 @@
+@import url("styles/header.css");
+@import url("styles/container.css");
+@import url("styles/carrossel.css");
+@import url("styles/rodape.css");
+
+:root { 
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #D0D3D4;
+    --botao-efeito-1: #FF5733;
+    --botao-azul: #008080;
+    --botao-efeito-2: #72900C;
+    --botao-vermelho: #900C3F;
+    --verde-claro: #DAF7A6;
+    --amarelo-claro: #F9E79F;
+    --azul-oscuro: #00005C;
+    --roxo-oscuro: #800080;
+    --roxo-rosa: #581845;
+    --verde-azul: #117A65;
+    --vermelho: #CD5C5C;
+    --salmon: #E9967A;
+    --verde-dregade: radial-gradient(circle, rgba(211,240,29,1) 0%, rgba(98,201,23,1) 35%, rgba(0,101,24,1) 100%);
+    --cor-de-fundo:  linear-gradient(0deg, rgb(18, 181, 157) 0%, rgba(26,159,99,1) 24%, rgba(43,136,96,1) 36%, rgba(59,105,69,1) 61%, rgba(55,68,58,1) 88%, rgba(55,68,58,1) 100%);
+    --fonte-principal: "Poppins";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: var(--cor-de-fundo);
+   font-family: var(--fonte-principal);
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
+html {
+	font-family: "helvetica neue", sans serif;
+}
+.nav {
+	border-bottom: solid 1px #eaeaeb;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+}
+.menu {
+	margin: 0 30px 0 0;
+}
+.menu a {
+	clear: right;
+	text-decoration: none;
+	color: grey;
+	padding: 15px 15px 15px 15px;
+	margin: 0 10px;
+	line-height: 70px;
+}
+.menu a:hover {
+	background-color: #888;
+	color: #fff;
+}
+label {
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
+}
+#toggle {
+	display: none;
+}

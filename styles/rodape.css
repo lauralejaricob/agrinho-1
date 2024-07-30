@@ -1,0 +1,10 @@
+.rodape {
+    background-color: var(--verde-azul);
+    padding: 2em;
+}
+
+.rodape__titulo {
+    text-align: center;
+    font-weight: 800;
+    color: var(--cinza);
+}
